@@ -6,6 +6,15 @@ Developer: Eva Madarasz
 
 # LetGo – About & Legal
 
+## Contact
+For questions or concerns, please contact:  
+📧 eva.madarasz3@gmail.com
+
+Developer: Eva Madarasz 
+
+-You can also manage or cancel your subscription directly from your iOS device under:  
+**Settings > Apple ID > Subscriptions**
+
 ## Terms of Service
 By downloading or using **LetGo**, you agree to be bound by these Terms of Service and our Privacy Policy.  
 If you do not agree with any part of these terms, you must not use the app.
@@ -51,10 +60,4 @@ For data deletion requests (GDPR/CCPA), please contact us by email with the subj
 **“LetGo Data Deletion Request”** and include the Apple ID used with the app.  
 
 ---
-
-## Contact
-For questions or concerns, please contact:  
-📧 eva.madarasz3@gmail.com
-
-Developer: Eva Madarasz 
 
