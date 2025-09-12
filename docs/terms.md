@@ -10,6 +10,8 @@ Developer: Eva Madarasz
 For questions or concerns, please contact:  
 📧 eva.madarasz3@gmail.com
 
+Note: We typically reply within 1–2 business days, Mon–Fri CET
+
 Developer: Eva Madarasz 
 
 -You can also manage or cancel your subscription directly from your iOS device under:  
