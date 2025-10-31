@@ -7,9 +7,10 @@
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="{{ '/' | relative_url }}">LetGo Legal</a>
-      <nav class="nav">
-        <a href="{{ '/terms/' | relative_url }}" class="{% if page.url == '/terms/' %}active{% endif %}">Terms</a>
-      </nav>
+     <nav class="nav">
+  <a href="{{ '/terms/' | relative_url }}" class="{% if page.url == '/terms/' %}active{% endif %}">Terms</a>
+  <a href="{{ '/privacy/' | relative_url }}" class="{% if page.url == '/privacy/' %}active{% endif %}">Privacy</a>
+</nav>
     </div>
   </header>
 
