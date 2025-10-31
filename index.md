@@ -3,7 +3,6 @@ layout: page
 title: Legal Home
 ---
 
-# Legal Home
 
 Welcome to the legal hub for **LetGo**. Choose a document:
 
