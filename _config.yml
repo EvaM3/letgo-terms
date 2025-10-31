@@ -1,7 +1,7 @@
 title: LetGo Legal
 description: Terms of Service for the LetGo app
-url: "https://EvaM3.github.io"
-baseurl: "/letgo-terms"  
+url: "https://evam3.github.io"
+baseurl: "/letgo-terms"
 
 markdown: kramdown
 permalink: /:title/
@@ -13,4 +13,5 @@ plugins:
 letgo:
   company_name: "LetGo"
   contact_email: "eva.madarasz3@gmail.com"
+
 
