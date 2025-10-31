@@ -48,3 +48,25 @@ a{color:#294e80} a:hover{text-decoration:underline}
   .wrap{max-width:100%; padding:0}
   body{color:#000}
 }
+/* --- Legal Home cards --- */
+.legal-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap:16px; margin-top:12px;
+}
+.legal-card{
+  display:block; padding:16px; border:1px solid var(--line, #eee); border-radius:16px;
+  text-decoration:none; background:#fff;
+  transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.legal-card:hover{ transform:translateY(-2px); box-shadow:0 6px 18px rgba(0,0,0,.06); border-color:#dfe6ef; }
+.legal-card .emoji{ font-size:28px; line-height:1; margin-bottom:8px }
+.legal-card .title{ font-weight:700; margin-bottom:4px; color: var(--brand, #9C8498) }
+.legal-card .desc{ color:#555; font-size:14px }
+
+/* dark mode */
+@media (prefers-color-scheme:dark){
+  .legal-card{ background:#0f1116; border-color:#1c1f26 }
+  .legal-card:hover{ border-color:#26324a; box-shadow:0 6px 18px rgba(0,0,0,.4) }
+  .legal-card .desc{ color:#b7c0cf }
+}
