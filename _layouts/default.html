@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="{{ '/' | relative_url }}">LetGo Legal</a>
+      <nav class="nav">
+        <a href="{{ '/terms/' | relative_url }}" class="{% if page.url == '/terms/' %}active{% endif %}">
+          Terms of Service
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    {% include footer.html %}
+  </footer>
+</body>
+</html>
