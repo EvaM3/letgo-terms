@@ -1,0 +1,16 @@
+title: LetGo Legal
+description: Terms of Service for the LetGo app
+url: "https://EvaM3.github.io"
+baseurl: "/letgo-terms"  
+
+markdown: kramdown
+permalink: /:title/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+letgo:
+  company_name: "LetGo"
+  contact_email: "eva.madarasz3@gmail.com"
+
