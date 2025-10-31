@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<article class="page">
+  <h1>{{ page.title }}</h1>
+  <p class="meta">
+    {% if page.version %}<span class="badge">Version {{ page.version }}</span>{% endif %}
+    {% if page.effective %}<span class="badge">Effective {{ page.effective }}</span>{% endif %}
+  </p>
+  {{ content }}
+</article>
